@@ -1,0 +1,19 @@
+{
+  "name": "silly-logs-mre",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build:gyp": "node-gyp rebuild"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "@overwolf/ow-electron": "^34.4.1",
+    "@overwolf/ow-electron-builder": "^26.0.11",
+    "electron": "^35.2.1",
+    "electron-builder": "^26.0.12"
+  }
+}
